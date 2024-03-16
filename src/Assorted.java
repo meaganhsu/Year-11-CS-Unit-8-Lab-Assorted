@@ -309,12 +309,6 @@ public class Assorted {
 
         return x;*/
     }
-    public static void main(String[] args) {
-        String[] j = {"NORTH", "NORTH", "EAST", "EAST", "NORTH", "WEST", "SOUTH", "WEST", "WEST"};
-        ArrayList<String> x = new ArrayList<String>(Arrays.asList(j));
-
-        System.out.println(wildWest(x));
-    }
     public static boolean check(String x, String y) {
         if (x.equals("NORTH") && y.equals("SOUTH")) return true;
         else if (x.equals("SOUTH") && y.equals("NORTH")) return true;
